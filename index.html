@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<link href="stylee.css" rel="stylesheet" type="text/css">
+<head>
+<meta charset="utf-8">
+<title>Агентство недвижимости "Город"</title>
+</head>
+<body>
+
+<div class="head">
+	 <div class="container">
+	  <div class="header-line">
+	   <div class="header-logo">
+		<img src="img/logo.png" alt="" width="220">
+	   </div>
+		  <div class="nav">
+		  <a class="nav-item" href="index.html">ГЛАВНАЯ</a>
+		  <a class="nav-item" href="info.html">О НАС</a>
+		  <a class="nav-item" href="Contact.html">КОНТАКТЫ</a>
+		  <a class="nav-item" href="services.html">УСЛУГИ</a>
+		  </div>  
+		  <div class="contact">
+		  <div class="phone">
+			  <div class="phone-holder">
+		   <div class="phone-img">
+			   <img src="img/phone.png" alt="" width="20">
+		   </div>
+		   <div class="number"><a class="num" href="tel:89150915">+ 7 (915) 979-09-15</a></div>
+		  </div>
+			  </div>
+			  
+		  <div class="karta">
+			  <div class="karta-holder">
+		   <div class="karta-img">
+			   <img src="img/karta.png" alt="" width="20">
+		   </div>
+		   <div class="map"><a class="cart" href="Contact.html">г. Рыбинск, ул. Луначарского, д. 9</a></div>
+				  </div>
+		  </div>
+			  </div>
+		  <div class="btn">
+		  <a class="button" href="Contact.html#forma">СВЯЗАТЬСЯ</a>
+		  </div>
+	  </div>
+	 </div>
+	</div>
+<div class="slider-1">
+  <input type="radio" name="switch" id="btn1" checked>
+  <input type="radio" name="switch" id="btn2">
+
+  
+  <div class="switch">
+    <label for="btn1"></label>
+    <label for="btn2"></label>
+    
+  </div>
+  
+  <div class="slider-inner">
+    <div class="slides">
+      <img src="img/site.png"/>
+      <img src="img/site1.png"/>
+     
+    </div>
+  </div>
+  
+</div>
+
+	
+	
+	
+	
+<div id="poisk" class="poisk">Найти</div>	
+<div class="wrapper">
+	
+	<div class="header">
+		<div class="search">
+			<input id="search-input" type="text"
+			placeholder="Введите запрос">
+			<button id="search-button">Найти</button>
+		</div>
+	</div>
+	<div class="fll">
+	<div class="filters">
+		
+		<fieldset>
+			<legend>Тип</legend>
+		<select id="filter-square" class="filter">
+			<option value="">Все</option>
+			<option value="Квартира">Квартира</option>
+			<option value="Дом">Дом</option>
+			<option value="Комната">Комната</option>
+			<option value="Участок">Участок</option>
+		</select>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Статус</legend>
+		<select id="filter-status" class="filter">
+			<option value="">Все</option>
+			<option value="Аренда">Аренда</option>
+			<option value="Продажа">Продажа</option>
+		</select>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Этаж</legend>
+		<select id="filter-floor" class="filter">
+			<option value="">Все</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</select>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Комнаты</legend>
+		<select id="filter-room" class="filter">
+			<option value="">Все</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+		</select>
+		</fieldset>
+		
+		
+		
+		
+	</div>
+	</div>
+	<section class="content">
+		<h2 class="title">Результаты поиска</h2>
+		<div id="results" class="results">
+		</div>
+	</section>
+	</div>
+	
+	
+<script src="data.js"></script> 	
+<script src="script.js"></script>
+   
+</body>
+</html>

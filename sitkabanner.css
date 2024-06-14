@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'SitkaBanner';
+	src: url('../fonts/sitkabanner.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sitkabanner.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sitkabanner.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sitkabanner.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sitkabanner.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sitkabanner.svg#sitkabanner') format('svg'); /* Chrome < 4, Legacy iOS */
+}
